@@ -1,0 +1,12 @@
+language: python
+python:
+- '3.3'
+install: pip install -r requirements.txt
+script: python run_tests.py
+deploy:
+  provider: heroku
+  api_key:
+    secure: YUEc7MLNJlHNpEbUxiHZcTkM6Iss1inOtjy4mZACcsF0idZPK9il7P/HcITwqut1Be5svyC6NkicD1EOx9isi3NnIW4PmGZs+HX0FeprIWfcj5CKw4wLLoHIrnkwVZ+1/EEh9Y/fUdvHykj9IjDH1xzzym1Wmf3nSJbI05vCnUc=
+  app: codemanship-app
+  on:
+    repo: willprice/Codemanship-App
