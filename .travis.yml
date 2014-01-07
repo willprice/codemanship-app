@@ -11,8 +11,10 @@ deploy:
     on:
     repo: willprice/Codemanship-App
   - provider: openshift
-    user: "will.price94@gmail.com"
+    user: will.price94@gmail.com
     password: 
     secure: "mbmShwL+bXa66IGNRp57FAV8vUOs8Pk4YX1sWZSPHg/jsB6QvROlkdp8453naWC+qegdN58+Fz7s8bMlL6ycieS+u6hhgBpvjrXzzcLG/4spbZDfDqEw8uAZmco1vrMojttL2WzkJBx16CktQJfUK2k1tC08HHfrIsaYHNy7LWw="
-    domain: "codemanship"
+    domain: codemanship
     app: codemanshipapp
+    on:
+    repo: willprice/Codemanship-App
