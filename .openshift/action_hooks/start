@@ -1,0 +1,19 @@
+VENV_APP_DIR="${OPENSHIFT_DATA_DIR}venv"
+
+source ${VENV_APP_DIR}/bin/activate
+
+# gunicorn config
+
+LOGFILE=${OPENSHIFT_DIY_LOG_DIR}gunicorn_out.log
+ACCESS_LOGFILE=${OPENSHIFT_DIY_LOG_DIR}gunicorn_access.log
+PIDFILE=${OPENSHIFT_DATA_DIR}gunicorn.pid
+
+# Execute gunicorn daemon
+
+gunicorn $OPENSHIFT_INTERNAL_IP:$OPENSHIFT_INTERNAL_PORT \
+    --daemon \
+    --workers=$WORKERS \
+    --pid=$PIDFILE \
+    --log-file=$LOGFILE \
+    --access-logfile $ACCESS_LOGFILE \
+    --log-level=info
