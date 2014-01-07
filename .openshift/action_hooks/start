@@ -1,4 +1,6 @@
-VENV_APP_DIR="${OPENSHIFT_DATA_DIR}venv"
+VENV_VERSION=`md5sum ${OPENSHIFT_REPO_DIR}requirements.txt | cut -d ' ' -f1`
+VENV_BASE_DIR="${OPENSHIFT_DATA_DIR}virtualenvs/"
+VENV_APP_DIR="${VENV_BASE_DIR}${VENV_VERSION}"
 
 source ${VENV_APP_DIR}/bin/activate
 
@@ -12,7 +14,6 @@ PIDFILE=${OPENSHIFT_DATA_DIR}gunicorn.pid
 
 gunicorn $OPENSHIFT_INTERNAL_IP:$OPENSHIFT_INTERNAL_PORT \
     --daemon \
-    --workers=$WORKERS \
     --pid=$PIDFILE \
     --log-file=$LOGFILE \
     --access-logfile $ACCESS_LOGFILE \
