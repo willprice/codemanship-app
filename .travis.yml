@@ -6,15 +6,15 @@ script: python run_tests.py
 deploy:
   - provider: heroku
     api_key:
-    secure: YUEc7MLNJlHNpEbUxiHZcTkM6Iss1inOtjy4mZACcsF0idZPK9il7P/HcITwqut1Be5svyC6NkicD1EOx9isi3NnIW4PmGZs+HX0FeprIWfcj5CKw4wLLoHIrnkwVZ+1/EEh9Y/fUdvHykj9IjDH1xzzym1Wmf3nSJbI05vCnUc=
+      secure: YUEc7MLNJlHNpEbUxiHZcTkM6Iss1inOtjy4mZACcsF0idZPK9il7P/HcITwqut1Be5svyC6NkicD1EOx9isi3NnIW4PmGZs+HX0FeprIWfcj5CKw4wLLoHIrnkwVZ+1/EEh9Y/fUdvHykj9IjDH1xzzym1Wmf3nSJbI05vCnUc=
     app: codemanship-app
     on:
-    repo: willprice/Codemanship-App
+      repo: willprice/Codemanship-App
   - provider: openshift
     user: will.price94@gmail.com
     password: 
-    secure: "mbmShwL+bXa66IGNRp57FAV8vUOs8Pk4YX1sWZSPHg/jsB6QvROlkdp8453naWC+qegdN58+Fz7s8bMlL6ycieS+u6hhgBpvjrXzzcLG/4spbZDfDqEw8uAZmco1vrMojttL2WzkJBx16CktQJfUK2k1tC08HHfrIsaYHNy7LWw="
+      secure: "mbmShwL+bXa66IGNRp57FAV8vUOs8Pk4YX1sWZSPHg/jsB6QvROlkdp8453naWC+qegdN58+Fz7s8bMlL6ycieS+u6hhgBpvjrXzzcLG/4spbZDfDqEw8uAZmco1vrMojttL2WzkJBx16CktQJfUK2k1tC08HHfrIsaYHNy7LWw="
     domain: codemanship
     app: codemanshipapp
     on:
-    repo: willprice/Codemanship-App
+      repo: willprice/Codemanship-App
