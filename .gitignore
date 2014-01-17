@@ -1,3 +1,6 @@
 venv
+bin
+lib
+include
 *.pyc
-
+__pycache__
