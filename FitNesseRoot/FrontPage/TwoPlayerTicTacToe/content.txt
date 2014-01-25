@@ -1,0 +1,14 @@
+!contents -R2 -g -p -f -h
+!define TEST_SYSTEM {slim} 
+
+* Given a queue with at least 2 players inside
+* When player one asks another player from a queue 
+* Then assuming that player accepts, player one and player two should be removed from the queue and entered into their chosen game.
+
+Given that jason and will are in the queue
+When jason challenges will to a game of tic tac toe
+Then jason and will are entered into a new game of tic tac toe and removed from the queue
+
+|Table:Playing|
+| Player | Another_Player | Queue             | Player_1 | Player_2 | Queue_After |
+| Jason  | Will           | ["jason", "will"] | Jason    | Will     | []          |

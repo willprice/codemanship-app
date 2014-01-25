@@ -1,0 +1,4 @@
+!1 Welcome to Codemanship's App!
+
+This is an application that allows players to design bots for a variety of 2 player board games (Tic tac toe, draughts, chess, backgammon etc) and pit them against each other to see who can program the superior game playing bot!
+!note Release ${FITNESSE_VERSION}

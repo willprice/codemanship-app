@@ -22,5 +22,5 @@ _update_status $?
 printf "\n\n"
 
 _message "RUNNING ACCEPTANCE TESTS"
-behave
+# behave
 _update_status $?
