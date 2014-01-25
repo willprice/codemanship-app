@@ -1,0 +1,3 @@
+[submodule "lib/python2.7/site-packages/waferslim"]
+	path = lib/python2.7/site-packages/waferslim
+	url = https://github.com/peterdemin/waferslim.git

@@ -1,0 +1,3 @@
+!define TEST_SYSTEM {slim}
+!path /home/will/code/python/codemanship-app/src/
+!define COMMAND_PATTERN {python2 -m waferslim.server --syspath %p }
