@@ -1,0 +1,8 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 5:05:57 PM (GMT) on Monday, January 27, 2014 |
+|'''Test Page: '''|.TwoPlayerTicTacToe|
+|'''Command: '''| !- /home/will/code/python/codemanship-app/bin/python -m waferslim.server -s /home/will/code/python/codemanship-app/src   8087-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.624 seconds |
+

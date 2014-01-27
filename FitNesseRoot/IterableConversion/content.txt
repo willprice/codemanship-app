@@ -1,0 +1,15 @@
+!contents -R2 -g -p -f -h
+
+|import|
+|iterable_conversion|
+
+|Iterable Conversion|
+|input|output?|
+|a, b, c|[a, b, c]|
+|[a, b, c]|[a, b, c]|
+
+|Iterable Conversion|
+|input with int|output?|
+|a, 1, b|[a, 1, b]|
+|[a, 1, b]|[a, 1, b]|
+

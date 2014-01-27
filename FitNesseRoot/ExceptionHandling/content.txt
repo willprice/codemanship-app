@@ -1,0 +1,11 @@
+!contents -R2 -g -p -f -h
+
+|import|
+|exception_handling|
+
+|script|exceptional|
+|raise exception|whoops|
+|stop test|no more!|
+|should not be called|
+
+|script|should not be called|

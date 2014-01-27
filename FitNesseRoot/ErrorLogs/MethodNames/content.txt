@@ -1,0 +1,22 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 3:52:21 PM (GMT) on Monday, January 27, 2014 |
+|'''Test Page: '''|.MethodNames|
+|'''Command: '''| !- /home/will/code/python/codemanship-app/bin/python -m waferslim.server -s /home/will/code/python/codemanship-app/src   8088-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.655 seconds |
+
+----
+'''Standard Error:'''
+{{{ WARNING:Instructions:Error executing Call scriptTable_5_3/scriptTable_1_0: [u'scriptTableActor', u'a_method', u'hello_world']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'a_method'
+ }}}

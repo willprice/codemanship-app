@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20131110</FitNesseVersion>
+  <rootPath>WaferSlimExample</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <runTimeInMillis>30</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="toc1"&gt;
+	&lt;div class="contents"&gt;
+		&lt;b&gt;Contents:&lt;/b&gt;
+		&lt;ul/&gt;&lt;ul/&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;codemanship-app.src.table_table &lt;span class="error"&gt;No module named codemanship-app.src.table_table&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="21"&gt;Table:Bowling &lt;span class="error"&gt;Could not invoke constructor for Bowling&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;5&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;/&lt;/td&gt;
+		&lt;td&gt;X&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;X&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;6&lt;/td&gt;
+		&lt;td&gt;/&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;-&lt;/td&gt;
+		&lt;td&gt;4&lt;/td&gt;
+		&lt;td&gt;/&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;8&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;28&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;51&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;68&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;75&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;92&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;101&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;108&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;117&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+		&lt;td&gt;130&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>WaferSlimExample</relativePageName>
+    
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='codemanship-app.src.table_table'}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>import_0_0</instructionId>
+                              <type>ImportExpectation</type>
+                                        <evaluationMessage>No module named codemanship-app.src.table_table</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='Bowling', args=[]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>tableTable_1_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not invoke constructor for Bowling</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[3, 5, 4, /, X, , X, , 3, 4, 6, /, 7, 2, 3, 4, 9, -, 4, /, 3], [, 8, , 28, , 51, , 68, , 75, , 92, , 101, , 108, , 117, , , 130]]]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>tableTable_1_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                        <evaluationMessage>The instance tableTable_1 does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

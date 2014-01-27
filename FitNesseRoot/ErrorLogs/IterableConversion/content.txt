@@ -1,0 +1,165 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 11:17:44 AM (GMT) on Sunday, January 26, 2014 |
+|'''Test Page: '''|.IterableConversion|
+|'''Command: '''| !- /home/will/code/python/codemanship-app/bin/python -m waferslim.server -s /home/will/code/python/codemanship-app/src   8088-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.606 seconds |
+
+----
+'''Standard Error:'''
+{{{ WARNING:Instructions:Error executing Call decisionTable_1_1: [u'decisionTable_1', u'table', [[u'input', u'output?'], [u'a, b, c', u'[a, b, c]'], [u'[a, b, c]', u'[a, b, c]']]]:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'table'
+WARNING:Instructions:Error executing Call decisionTable_1_2: [u'decisionTable_1', u'beginTable']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'beginTable'
+WARNING:Instructions:Error executing Call decisionTable_1_3: [u'decisionTable_1', u'reset']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'reset'
+WARNING:Instructions:Error executing Call decisionTable_1_5: [u'decisionTable_1', u'execute']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'execute'
+WARNING:Instructions:Error executing Call decisionTable_1_7: [u'decisionTable_1', u'reset']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'reset'
+WARNING:Instructions:Error executing Call decisionTable_1_9: [u'decisionTable_1', u'execute']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'execute'
+WARNING:Instructions:Error executing Call decisionTable_1_11: [u'decisionTable_1', u'endTable']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'endTable'
+WARNING:Instructions:Error executing Call decisionTable_2_1: [u'decisionTable_2', u'table', [[u'input with int', u'output?'], [u'a, 1, b', u'[a, 1, b]'], [u'[a, 1, b]', u'[a, 1, b]']]]:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'table'
+WARNING:Instructions:Error executing Call decisionTable_2_2: [u'decisionTable_2', u'beginTable']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'beginTable'
+WARNING:Instructions:Error executing Call decisionTable_2_3: [u'decisionTable_2', u'reset']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'reset'
+WARNING:Instructions:Error executing Call decisionTable_2_5: [u'decisionTable_2', u'execute']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'execute'
+WARNING:Instructions:Error executing Call decisionTable_2_7: [u'decisionTable_2', u'reset']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'reset'
+WARNING:Instructions:Error executing Call decisionTable_2_9: [u'decisionTable_2', u'execute']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'execute'
+WARNING:Instructions:Error executing Call decisionTable_2_11: [u'decisionTable_2', u'endTable']:
+Traceback (most recent call last):
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 102, in execute
+    instruction.execute(execution_context, results)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 84, in execute
+    result, is_ok = self._invoke(execution_context, results, self._params)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/instructions.py", line 97, in _invoke
+    target = execution_context.target_for(instance, target_name)
+  File "/home/will/code/python/codemanship-app/lib/python2.7/site-packages/waferslim/execution.py", line 219, in target_for
+    method_name = self.aliases[class_name][method_name]
+KeyError: u'endTable'
+ }}}

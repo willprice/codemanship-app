@@ -1,0 +1,8 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 11:14:01 AM (GMT) on Sunday, January 26, 2014 |
+|'''Test Page: '''|.TableTables|
+|'''Command: '''| !- /home/will/code/python/codemanship-app/bin/python -m waferslim.server -s /home/will/code/python/codemanship-app/src   8094-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.613 seconds |
+

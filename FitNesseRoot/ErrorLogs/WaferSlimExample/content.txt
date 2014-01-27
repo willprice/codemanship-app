@@ -1,0 +1,8 @@
+
+!3 !-slim:fitnesse.slim.SlimService-!
+|'''Date: '''| 3:44:47 PM (GMT) on Saturday, January 25, 2014 |
+|'''Test Page: '''|.WaferSlimExample|
+|'''Command: '''| !-./bin/python2 -m waferslim.server --syspath /home/will/code/python/codemanship-app/src/   8092-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.611 seconds |
+

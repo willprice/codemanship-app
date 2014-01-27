@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20131110</FitNesseVersion>
+  <rootPath>MethodNames</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>15</exceptions>
+    </counts>
+    <runTimeInMillis>244</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="toc1"&gt;
+	&lt;div class="contents"&gt;
+		&lt;b&gt;Contents:&lt;/b&gt;
+		&lt;ul/&gt;&lt;ul/&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;method_names &lt;span class="error"&gt;No module named fixtures&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;@methodName&lt;/td&gt;
+		&lt;td&gt;@argValue&lt;/td&gt;
+		&lt;td colspan="2"&gt;@argValue&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;class with pythonic method names &lt;span class="error"&gt;Could not invoke constructor for ClassWithPythonicMethodNames&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;All tests will pass...&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;a method&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;hello world&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;a method&lt;/td&gt;
+		&lt;td&gt;hello world&lt;/td&gt;
+		&lt;td colspan="2"&gt;hello world &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;a Method&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;hello World&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;a Method&lt;/td&gt;
+		&lt;td&gt;hello World&lt;/td&gt;
+		&lt;td colspan="2"&gt;hello World &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;A Method&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;Hello World&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;A Method&lt;/td&gt;
+		&lt;td&gt;Hello World&lt;/td&gt;
+		&lt;td colspan="2"&gt;Hello World &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;a_method&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;hello_world&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;a_method&lt;/td&gt;
+		&lt;td&gt;hello_world&lt;/td&gt;
+		&lt;td colspan="2"&gt;hello_world &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;aMethod&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;helloWorld&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;aMethod&lt;/td&gt;
+		&lt;td&gt;helloWorld&lt;/td&gt;
+		&lt;td colspan="2"&gt;helloWorld &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;AMethod&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;Hello World&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;AMethod&lt;/td&gt;
+		&lt;td&gt;Hello World&lt;/td&gt;
+		&lt;td colspan="2"&gt;Hello World &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td&gt;class with camel case method names &lt;span class="error"&gt;Could not invoke constructor for ClassWithCamelCaseMethodNames&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;"A Method", "a_method" and "AMethod" will fail...&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;a method&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;hello world&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;a method&lt;/td&gt;
+		&lt;td&gt;hello world&lt;/td&gt;
+		&lt;td colspan="2"&gt;hello world &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;a Method&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;hello World&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;a Method&lt;/td&gt;
+		&lt;td&gt;hello World&lt;/td&gt;
+		&lt;td colspan="2"&gt;hello World &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;A Method&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;Hello World&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;A Method&lt;/td&gt;
+		&lt;td&gt;Hello World&lt;/td&gt;
+		&lt;td colspan="2"&gt;Hello World &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;a_method&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;hello_world&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;a_method&lt;/td&gt;
+		&lt;td&gt;hello_world&lt;/td&gt;
+		&lt;td colspan="2"&gt;hello_world &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;aMethod&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;helloWorld&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;aMethod&lt;/td&gt;
+		&lt;td&gt;helloWorld&lt;/td&gt;
+		&lt;td colspan="2"&gt;helloWorld &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="scenario closed"&gt;
+		&lt;td class="error"&gt;invoke&lt;/td&gt;
+		&lt;td class="error"&gt;AMethod&lt;/td&gt;
+		&lt;td class="error"&gt;with&lt;/td&gt;
+		&lt;td class="error"&gt;Hello World&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="scenario-detail closed-detail"&gt;&lt;td colspan="4"&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;invoke&lt;/td&gt;
+		&lt;td&gt;methodName&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;argValue&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;AMethod&lt;/td&gt;
+		&lt;td&gt;Hello World&lt;/td&gt;
+		&lt;td colspan="2"&gt;Hello World &lt;span class="error"&gt;The instance scriptTableActor does not exist&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>MethodNames</relativePageName>
+    
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='method_names'}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>import_0_0</instructionId>
+                              <type>ImportExpectation</type>
+                                        <evaluationMessage>No module named fixtures</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_0', instruction='make', instanceName='scriptTableActor', className='ClassWithPythonicMethodNames', args=[]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_2_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not invoke constructor for ClassWithPythonicMethodNames</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_0/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='aMethod', args=[hello world]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_0/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_1/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='aMethod', args=[hello World]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_1/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_2/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='AMethod', args=[Hello World]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_2/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_3/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='a_method', args=[hello_world]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_3/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_4/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='aMethod', args=[helloWorld]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_4/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_5/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='AMethod', args=[Hello World]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_3_5/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_0', instruction='make', instanceName='scriptTableActor', className='ClassWithCamelCaseMethodNames', args=[]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_0</instructionId>
+                              <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Could not invoke constructor for ClassWithCamelCaseMethodNames</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_0/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='aMethod', args=[hello world]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_0/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_1/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='aMethod', args=[hello World]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_1/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_2/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='AMethod', args=[Hello World]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_2/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_3/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='a_method', args=[hello_world]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_3/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_4/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='aMethod', args=[helloWorld]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_4/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_5/scriptTable_1_0', instruction='call', instanceName='scriptTableActor', methodName='AMethod', args=[Hello World]}</instruction>
+        <slimResult>null</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_5_5/scriptTable_1_0</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>The instance scriptTableActor does not exist</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+

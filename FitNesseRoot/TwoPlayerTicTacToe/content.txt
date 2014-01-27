@@ -1,0 +1,13 @@
+!3 Given When Then
+
+* Given a queue with two players in it
+* When player 1 challenges player 2 to a game of Tic Tac Toe and player 2 accepts the challenge
+* Then player 1 and player 2 are entered into a new game of Tic Tac Toe and removed from the queue
+
+!3 Examples
+|import|
+|games/tictactoe.py|
+
+|!-TicTacToe-!| 
+| player one | player two | queue?             | add players? | queue?      |
+| Jason     | Will      | "Jason", "Will"    | true       | []          |
