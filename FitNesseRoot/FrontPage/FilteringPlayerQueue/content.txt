@@ -1,0 +1,17 @@
+!contents -R2 -g -p -f -h
+
+Given a list of players for all games
+
+When a game is selected 
+
+Then the list is filtered to only include players of that game.
+
+| eg.SelectingChess              |
+| Player| Can play               |
+|"Will" | "TicTacToe", "Chess"   | 
+|"John" | "Chess", "Backgammon"  |
+|"Bill" | "TicTacToe"            |
+| Player selects                 |
+| "Chess"                        |
+| Filtered players               |
+| "Will", "John"                 |

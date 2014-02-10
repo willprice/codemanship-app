@@ -10,4 +10,4 @@
 
 |!-TicTacToe-!| 
 | player one | player two | queue?             | add players? | queue?      |
-| Jason     | Will      | "Jason", "Will"    | true       | []          |
+| Jason      | Will       | "Jason", "Will"    | true         | []          |

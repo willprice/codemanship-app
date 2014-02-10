@@ -12,5 +12,6 @@ This is an application that allows players to design bots for a variety of 2 pla
 
 !2 Acceptance tests
 * TwoPlayerTicTacToe
+* FilteringPlayerQueue
 
 !note Release ${FITNESSE_VERSION}

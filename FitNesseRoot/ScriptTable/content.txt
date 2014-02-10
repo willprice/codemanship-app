@@ -1,7 +1,7 @@
 !contents -R2 -g -p -f -h
 
 |import|
-|script_table|
+|core/script_table.py|
 
 |script|login dialog driver|Bob|xyzzy|
 |login with username|Bob|and password|xyzzy|

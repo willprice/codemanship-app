@@ -1,0 +1,13 @@
+!contents -R2 -g -p -f -h
+
+Given a list of players for all games
+
+When a game is selected 
+
+Then the list is filtered to only include players of that game.
+|import|
+|tests/core/SelectingChessFixture.py|
+
+| script | Selecting chess fixture | Will, !-TicTacToe-!, Chess | John, Chess, Backgammon | Bill, !-TicTacToe-! |
+| player chooses game | !-TicTacToe-! | 
+| check | Filtered players | [Will, Bill] |

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20131110</FitNesseVersion>
+  <rootPath>FilteringPlayerQueue</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <runTimeInMillis>42</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;div class="toc1"&gt;
+	&lt;div class="contents"&gt;
+		&lt;b&gt;Contents:&lt;/b&gt;
+		&lt;ul/&gt;&lt;ul/&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;br/&gt;Given a list of players for all games&lt;br/&gt;&lt;br/&gt;When a game is selected &lt;br/&gt;&lt;br/&gt;Then the list is filtered to only include players of that game.&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;core/SelectingChessFixture.py&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="2"&gt;Table:SelectingChessFixture &lt;span class="error"&gt;/__VOID__/&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Player&lt;/td&gt;
+		&lt;td&gt;Can play&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;"Will"&lt;/td&gt;
+		&lt;td&gt;"TicTacToe", "Chess"&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;"John"&lt;/td&gt;
+		&lt;td&gt;"Chess", "Backgammon"&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;"Bill"&lt;/td&gt;
+		&lt;td&gt;"TicTacToe"&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Player selects&lt;/td&gt;
+		&lt;td&gt;"Chess"&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Filtered players&lt;/td&gt;
+		&lt;td&gt;"Will", "John"&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>FilteringPlayerQueue</relativePageName>
+    
+    
+    
+    <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='core/SelectingChessFixture.py'}</instruction>
+        <slimResult>pass(core/SelectingChessFixture.py)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>core/SelectingChessFixture.py</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='SelectingChessFixture', args=[]}</instruction>
+        <slimResult>pass(Table:SelectingChessFixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table:SelectingChessFixture</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[Player, Can play], ["Will", "TicTacToe", "Chess"], ["John", "Chess", "Backgammon"], ["Bill", "TicTacToe"], [Player selects, "Chess"], [Filtered players, "Will", "John"]]]}</instruction>
+        <slimResult>error(/__VOID__/)</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>tableTable_1_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                        <evaluationMessage>/__VOID__/</evaluationMessage>
+                  </expectation>
+        
+      </instructionResult>
+      
+    </instructions>
+    
+  </result>
+  
+    <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>0</totalRunTimeInMillis>
+  
+</testResults>
+
