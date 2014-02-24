@@ -1,6 +1,6 @@
 import unittest
 from mock import Mock
-from ..player import Player
+from core.player import Player
 
 
 class PlayerTests(unittest.TestCase):

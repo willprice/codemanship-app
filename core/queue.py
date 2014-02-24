@@ -11,6 +11,10 @@ class Queue(object):
     def add_player(self, player):
         self.players.add(player)
 
+    def add_players(self, players):
+        for player in players:
+            self.add_player(player)
+
     def filter(self, game):
         filtered_queue = Queue()
         for player in self.players:
