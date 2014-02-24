@@ -14,17 +14,39 @@
       #sidebar
         %h2 Games
         %h3 Pick a game for your bot to play
-        .box 
-          TicTacToe
-          f
-        .box 
-          Chess
-        .box 
-          Poker
+        .game 
+          %img(src="/images/TicTacToe-icon.png" alt="TicTacToe")
+          %p TicTacToe
+        .game 
+          %img(src="/images/Chess-icon.png" alt="Chess")
+          %p Chess
+        .game 
+          %img(src="/images/Poker-icon.png" alt="Poker")
+          %p Poker
 
       #content
         %h2 Players
-        
-
-
-      %footer Footer
+        #players
+          %ul
+            %li 
+              .supported-games
+                %img(src="/images/Poker-icon.png" alt="Poker supported")
+                %img(src="/images/TicTacToe-icon.png" alt="TicTacToe supported")
+              Harry 
+            %li 
+              .supported-games
+                %img(src="/images/Poker-icon.png" alt="Poker supported")
+                %img(src="/images/TicTacToe-icon.png" alt="TicTacToe supported")
+              John 
+            %li
+              .supported-games
+                %img(src="/images/Poker-icon.png" alt="Poker supported")
+                %img(src="/images/TicTacToe-icon.png" alt="TicTacToe supported")
+                %img(src="/images/Chess-icon.png" alt="Chess supported")
+              Terry
+            %li
+              .supported-games
+                %img(src="/images/Poker-icon.png" alt="Poker supported")
+                %img(src="/images/TicTacToe-icon.png" alt="TicTacToe supported")
+                %img(src="/images/Chess-icon.png" alt="Chess supported")
+              Will
