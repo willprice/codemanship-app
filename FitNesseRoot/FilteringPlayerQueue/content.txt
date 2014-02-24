@@ -4,9 +4,12 @@ Given a list of players for all games
 
 When a game is selected 
 
-Then the list is filtered to only include players of that game.
+Then the list is filtered to only include players of that game.S
+
 |import|
-|tests/core/SelectingChessFixture.py|
+|core/tests/selecting_chess_fixture.py|
+
+Players should be specified in the format '''player name''', '''game''', '''game2'''...
 
 | script | Selecting chess fixture | Will, !-TicTacToe-!, Chess | John, Chess, Backgammon | Bill, !-TicTacToe-! |
 | player chooses game | !-TicTacToe-! | 
