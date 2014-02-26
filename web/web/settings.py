@@ -29,7 +29,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-TEMPLATE_DIRS = ('web/templates')
+TEMPLATE_DIRS = os.path.join(BASE_DIR, 'web/templates'),
 ALLOWED_HOSTS = []
 
 
@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'gunicorn',
+    'web',
 )
 
 
