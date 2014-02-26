@@ -2,45 +2,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>
-        Codemanship App
-    </title>
-    <link href='{% static "stylesheets/screen.css" %}' media='screen, projection' rel='stylesheet' type='text/css' />
-    <link href='{% static "stylesheets/print.css" %}' media='print' rel='stylesheet' type='text/css' />
+  <title>Codemanship App</title>
+  <link href='{% static "stylesheets/screen.css" %}' media='screen, projection' rel='stylesheet' type='text/css' />
+  <link href='{% static "stylesheets/print.css" %}' media='print' rel='stylesheet' type='text/css' />
 </head>
 
-<div id='container'>
+<body>
+  <div id='container'>
     <header>
-        <h1>Codemanship App</h1>
-        <hr>
+      <h1>Codemanship App</h1>
+      <hr />
     </header>
     <div id='sidebar'>
-        <h2>Games</h2>
-        <h3>Pick a game for your bot to play</h3>
-        {% for game in games %}
-        <div class='game'>
-            <img alt='{{ game }} icon' src='{% static "images/"|add:game|add:"-icon.png" %}'>
-            <p>{{ game }}</p>
-        </div>
-        {% endfor %}
+      <h2>Games</h2>
+      <h3>Pick a game for your bot to play</h3>
+      {% for game in games %}
+      <div class='game'>
+        <img alt='{{ game }} icon' src='{% static "images/"|add:game|add:"-icon.png" %}' />
+        <p>{{ game }}</p>
+      </div>
+      {% endfor %}
     </div>
     <div id='content'>
-        <h2>Players</h2>
-        <div id='players'>
-            <ul>
-                {%  for player in queue.players %}
-                <li>
-                    <div class='supported-games'>
-                        {% for game in player.games %}
-                        <img alt='{{ game }} supported' src='{% static "images/"|add:game|add:"-icon.png" %}'>
-                        {% endfor %}
-                    </div>
-                    {{  player.name }}
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+      <h2>Players</h2>
+      <div id='players'>
+        <ul>
+          {%  for player in queue.players %}
+          <li>
+          <div class='supported-games'>
+            {% for game in player.games %}
+            <img alt='{{ game }} supported' src='{% static "images/"|add:game|add:"-icon.png" %}' />
+            {% endfor %}
+          </div>
+          {{  player.name }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
-</div>
+  </div>
 </body>
 </html>
