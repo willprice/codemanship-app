@@ -2,5 +2,7 @@ venv
 bin
 lib
 include
+local
+*.sass_cache
 *.pyc
 __pycache__
