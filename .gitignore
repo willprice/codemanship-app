@@ -3,6 +3,11 @@ bin
 lib
 include
 local
+man
 *.sass_cache
 *.pyc
 __pycache__
+.idea
+.ropeproject
+app.yaml
+appengine*
